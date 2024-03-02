@@ -1,0 +1,46 @@
+
+ /* custom alert */
+
+
+.custom-alert {
+    background: #facd4b;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    border-radius: 0 0 15px 15px;
+    border:2px solid white;    box-shadow: 0px 0px 10px black; /* Add a shadow with black color */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.custom-alert-content {
+    background: #FFFF00;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+.tick-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.alert-text{
+    font-size: 20px;
+    color:#ffffff;
+    margin-left:18px ;
+
+}
+
